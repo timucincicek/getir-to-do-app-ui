@@ -1,0 +1,44 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 16px;
+  margin-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 0.1px solid #232323;
+  padding-bottom: 10px;
+  h2 {
+    color: #232323;
+    font-weight: 100;
+  }
+  .task__found {
+    display: block;
+    font-size: 15px;
+    margin-top: -2px;
+    margin-bottom: 2px;
+  }
+  .action_buttons {
+    button:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+  .selected-info {
+    display: inline-block;
+    background-color: #3f3f3f;
+    padding: 3px 8px;
+    border-radius: 14px;
+    line-height: 0;
+    color: #fff;
+    button {
+      background: transparent;
+      border-color: transparent;
+      padding: 0;
+      color: #fff;
+    }
+    span {
+      margin-left: 2px;
+      font-size: 12px;
+    }
+  }
+}

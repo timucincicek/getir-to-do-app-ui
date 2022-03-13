@@ -1,0 +1,32 @@
+.green {
+  color: #3db73d;
+}
+.yellow {
+  color: #fff900e8;
+}
+
+.black {
+  color: #232323;
+  &:hover {
+    color: #232323a6;
+  }
+}
+
+.white {
+  color: #fff;
+  &:hover {
+    color: #ddddddc2;
+  }
+}
+
+.small {
+  font-size: 14px;
+}
+
+.medium {
+  font-size: 1.25rem;
+}
+
+.big {
+  font-size: 30px;
+}

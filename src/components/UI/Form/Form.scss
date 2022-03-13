@@ -1,0 +1,15 @@
+.form-controls {
+  .form-control {
+    input,
+    select {
+      padding: 5px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    &:not(:first-child) {
+      margin-top: 5px;
+    }
+  }
+}
